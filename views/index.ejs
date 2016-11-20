@@ -12,9 +12,17 @@
   </head>
   <body>
     <div class="container">
-      <h1><%= title %></h1>
-      <div class="fixed-action-button">
-        <a class="btn-floating btn-large right red"><i class="material-icons">add</i></a>
+      <div class="row">
+        <h1 class="left"><%= title %></h1>
+        <div class="fixed-action-button horizontal toolbar">
+          <a class="btn-floating btn-large right red"><i class=" material-icons">add</i></a>
+            <ul>
+                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+        </div>
       </div>
       <hr />
       <video width="100%" heigth="500" autoplay loop>
@@ -22,6 +30,45 @@
         <source src="/images/Working-Space/OGV/Working-Space.ogv" type="video/ogv">
           Your browser doesn't support the video tag.
       </video>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Card</span>
+              <p>This is where the content of a card goes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card blue-grey lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">2nd Card</span>
+              <p>This is where the content of a card goes.</p>
+              <div class="card-action">
+                <a href="#">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <image src="/images/mountains.jpg"></image>
+              <span class="card-title white-text">Mountains</span>
+              <div class="card-content">
+                <p>
+                  These are the Monte Dule Mountains in Central Italy.
+                </p>
+              </div>
+              <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <div class="divider"></div>
     <div class="section">
       <h3>Section 1</h3>
