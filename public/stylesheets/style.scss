@@ -15,3 +15,7 @@ video{
   filter: grayscale(100%);
 
 }
+
+.ilike-blue-container {
+   @extend .blue-text, .text-lighten-4;
+ }
